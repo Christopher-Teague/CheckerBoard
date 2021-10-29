@@ -1,0 +1,75 @@
+  /*CSS Reset*/
+  * {     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-spacing: 0px;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.flex { 
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+.centered {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px black;
+}
+
+.btn {
+    color: azure;
+    background-color: dodgerblue;
+    width: 60px;
+    height: 25px;
+    font-size: small;
+}
+
+    /* Master */
+
+.color1 {
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+}
+
+.color2 {
+    background-color:lightslategrey;
+    height: 100px;
+    width: 100px;
+}
